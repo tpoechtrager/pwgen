@@ -1,0 +1,15 @@
+Simple Password Generator
+
+PREREQUISITES
+-------------
+c89 compatible compiler
+linux or windows envireonment
+
+COMPILING
+---------
+cc pwgen.c -O2 -Wall -Wextra -pedantic -Wno-system-headers -o pwgen
+
+RUNNING
+-------
+./pwgen <length> <count>
+./pwgen 10 20  therefore generates 20 passwords with a length of 10 characters
